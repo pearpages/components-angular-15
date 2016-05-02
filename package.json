@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/pearpages/components-angular-15/issues"
   },
-  "homepage": "https://github.com/pearpages/components-angular-15#readme"
+  "homepage": "https://github.com/pearpages/components-angular-15#readme",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6"
+  }
 }
