@@ -1,0 +1,8 @@
+<div>
+    <h3>{{model.message}}</h3>
+    <!-- by default is $ctrl.message, but I've changed it to model in the controllerAs section -->
+    <input type="text" ng-model="model.message" class="form-control">
+    <button ng-click="model.changeMessage()" class="btn btn-default">
+        Change Message
+    </button>
+</div>
