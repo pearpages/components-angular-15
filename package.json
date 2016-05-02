@@ -1,0 +1,19 @@
+{
+  "name": "components-angular-15",
+  "version": "1.0.0",
+  "description": "> Components are the best way to program with angular.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pearpages/components-angular-15.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pearpages/components-angular-15/issues"
+  },
+  "homepage": "https://github.com/pearpages/components-angular-15#readme"
+}
