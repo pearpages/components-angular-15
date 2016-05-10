@@ -55,3 +55,13 @@ When we use components we stop using *directives* and *controllers*. Components 
    });
 })();
 ```
+
+### Component Controllers
+
+New Lifecycle Hooks
+
+- $onInit
+- $onDestroy
+- $onChanges
+- $postLink // DOM manipulation
+
