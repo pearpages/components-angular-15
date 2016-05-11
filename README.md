@@ -180,3 +180,28 @@ In this example there are:
 
 ### Testing Component
 
+```js
+describe("The movieList component", function () {
+   
+   beforeEach(module("psMovies"));
+   
+   var moviesList;
+   beforeEach(inject(function ($componentController) {
+       // see here how we call $comonentController
+       // also see how we inject the dependencies with the `{}`
+       moviesList = $componentController('movieList',{
+           $scope: {}
+       });
+   }));
+   
+   it("can be created", function() {
+       expect(moviesList).toBeDefined();
+       expect(moviesList.$onInit).toBeDefined();
+       
+   });
+});
+```
+
+## Routing with Components
+
+## Composition with Components
