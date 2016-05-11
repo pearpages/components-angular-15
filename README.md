@@ -177,3 +177,6 @@ In this example there are:
     </ng-transclude>
 </span>
 ```
+
+### Testing Component
+

@@ -19,5 +19,9 @@
   "dependencies": {
     "angular": "^1.5.5",
     "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "angular-mock": "^1.0.0",
+    "angular-mocks": "^1.5.5"
   }
 }
